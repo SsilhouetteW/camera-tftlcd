@@ -283,9 +283,9 @@ void ESP8266_STA_TCP_Client ( void )
 
 void ESP8266_STA_TCP_Client_Single ( void )
 {
-    const char* ssid = "x";                
-    const char* password = "12345678";        
-    const char* server_ip = "192.168.254.195"; 
+    const char* ssid = "YOUR_WIFI_SSID";                
+    const char* password = "YOUR_WIFI_PASSWORD";        
+    const char* server_ip = "192.168.xxx.xxx"; 
     const char* server_port = "8080";        
     
     u8 wifi_retry = 0;
@@ -335,8 +335,8 @@ void ESP8266_STA_TCP_Client_Single ( void )
 
 void ESP8266_STA_TCP_Client_MQTT ( void )
 {
-    const char* ssid = "iPhone (8)";                
-    const char* password = "wxjywmmszg";        
+    const char* ssid = "YOUR_WIFI_SSID";                
+    const char* password = "YOUR_WIFI_PASSWORD";        
     const char* server_ip = "broker.emqx.io"; 
     const char* server_port = "1883";        
     
