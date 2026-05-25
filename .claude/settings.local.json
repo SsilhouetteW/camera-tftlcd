@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d \"E:\\\\OneDrive\\\\学习\\\\A大学\\\\3-2\\\\创新实践\\\\0522-wifi\\\\wifi-camera-tftlcd\")",
+      "Bash(python generate_gradient.py)",
+      "Bash(python *)"
+    ]
+  }
+}

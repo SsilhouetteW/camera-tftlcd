@@ -1,0 +1,15 @@
+# Keil
+*.uvoptx
+*.bak
+*.dep
+
+# Build
+Debug/
+Output/
+build/
+
+# VSCode
+.vscode/
+
+# Temporary
+*.tmp
